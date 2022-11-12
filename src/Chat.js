@@ -23,8 +23,12 @@ class Chats extends Component {
             itemsRendered: 0,
             things:[],
             showButton:false,
-            
         }
+        // this.playPromise=new Audio(require('./audio/'));
+        this.playPromise=null;
+        this.playPromise=new Audio(require('./audio/kesariya.mp3'));
+        this.playPromise.loop=true;
+        // this.playPromise.play();
         // this.audio = new Audio(('./tick.mp3'))
     }
     componentWillMount(){
@@ -41,6 +45,7 @@ class Chats extends Component {
     }
     componentDidMount(){
         this.scheduleNextUpdate()
+        // this.playBackgroundMusic();
         // const script = document.createElement("script");
 
         // script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyC87fftpSPt2ttOpm3kvzwdfyOmZX9Mu9A&callback=myMap";
@@ -55,9 +60,11 @@ class Chats extends Component {
         // this.scrollToBot();
         this.timer = setTimeout(()=>{
             if(this.state.itemsRendered===2 && !this.state.showButton){
+                // document.getElementById('musicId').click();
                 this.setState({
                     showButton:true
                 })
+
                 this.scrollToBot();
                 clearTimeout(this.timer)
             }
@@ -164,6 +171,9 @@ class Chats extends Component {
             <button variant="contained" color="secondary" className= 'customButton'
             style={{borderRadius:50}}
             onClick={()=>{
+                                if(this.state.itemsRendered===2 && this.state.showButton){
+                                    this.playBackgroundMusic();
+                                }
                                 this.setState({
                                 showButton:false
                                 })
@@ -237,8 +247,9 @@ class Chats extends Component {
                 </div>
         )
     }
-
-  
+    playBackgroundMusic(){
+        this.playPromise.play()
+    }
     render() {
         console.log("this.state.things[this.state.itemsRendered]",this.state.things[this.state.itemsRendered]);
         const username = "user";
@@ -275,6 +286,8 @@ class Chats extends Component {
                                                     })
                                                     }}
                                 />
+
+                                {/* <button onClick={()=>this.playBackgroundMusic()} id='musicId' style={{backgroundColor:'transparent',}}></button> */}
                             </div>
             {/* <div className='overlay'>  </div> */}
                            </div>
@@ -288,7 +301,7 @@ class Chats extends Component {
                                 <div key={index}>
                                        
                                         
-                                                <Message chat={chat} username={username} scrollToBot={this.scrollToBot}/>
+                                                <Message chat={chat} username={username} scrollToBot={this.scrollToBot} playBackgroundMusic={this.playBackgroundMusic}/>
                                         
                                     
                                 </div>

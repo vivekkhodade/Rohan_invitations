@@ -48,6 +48,10 @@ class Message extends React.Component {
     scrollToBot = () =>{
         this.props.scrollToBot();
     }
+    playMusic = ()=>{
+        alert("helloS")
+        this.props.playBackgroundMusic();
+    }
     render(){
         console.log(this.state.hidden);
 
@@ -77,11 +81,11 @@ class Message extends React.Component {
                                                 borderBottomRightRadius:10,
                                                 borderTopRightRadius:username !== chat.username ? 10: 0,
                                                 background: !this.state.hidden ? (username === chat.username ? 
-                                                                                                        chat.type!='image' ? 
+                                                                                                        chat.type!=='image' ? 
                                                                                                                             ('linear-gradient(to right bottom, rgba(38, 48, 78, 2), rgba(57, 74, 132,6 ))' )
                                                                                                                         : ('none')
                                                                                                     : 
-                                                                                                        chat.type!='image' ? 
+                                                                                                        chat.type!=='image' ? 
                                                                                                                             ('rgba(255, 255, 255, 0.8)' )
                                                                                                                             : ('none'))
                                                                                 :('none'),
@@ -91,11 +95,11 @@ class Message extends React.Component {
 
 
                                                 boxShadow: !this.state.hidden ? (username === chat.username ? 
-                                                                                    (chat.type!='image' ? 
+                                                                                    (chat.type!=='image' ? 
                                                                                                         ('1px 3px 12px rgba(0,0,0,0.4)')
                                                                                                     : ('none'))
                                                                                 : 
-                                                                                    (chat.type!='image' ? 
+                                                                                    (chat.type!=='image' ? 
                                                                                                     ('1px 3px 12px rgba(0,0,0,0.4)')
                                                                                                     : ('none')))
                                                                             :
@@ -137,6 +141,7 @@ class Message extends React.Component {
                                                                 }}
                                                             onLoad={()=>this.scrollToBot()}
                                                             onClick={()=>{
+
                                                                 this.setState({
                                                                     lightboxIsOpen:true,
                                                                     image:{src:chat.image}
@@ -202,11 +207,11 @@ class Message extends React.Component {
                                                 borderBottomRightRadius:'1.3em',
                                                 borderTopRightRadius:username !== chat.username ? '1.3em': 0,
                                                 background: !this.state.hidden ? (username === chat.username ? 
-                                                                                                        chat.type!='map' ? 
+                                                                                                        chat.type!=='map' ? 
                                                                                                                             ('linear-gradient(to right bottom, rgba(38, 48, 78, 2), rgba(57, 74, 132,6 ))' )
                                                                                                                         : ('none')
                                                                                                     : 
-                                                                                                        chat.type!='map' ? 
+                                                                                                        chat.type!=='map' ? 
                                                                                                                             ('rgba(255, 255, 255, 0.8)' )
                                                                                                                             : ('none'))
                                                                                 :('none'),
@@ -216,11 +221,11 @@ class Message extends React.Component {
 
 
                                                 boxShadow: !this.state.hidden ? (username === chat.username ? 
-                                                                                    (chat.type!='map' ? 
+                                                                                    (chat.type!=='map' ? 
                                                                                                         ('1px 3px 12px rgba(0,0,0,0.4)')
                                                                                                     : ('none'))
                                                                                 : 
-                                                                                    (chat.type!='map' ? 
+                                                                                    (chat.type!=='map' ? 
                                                                                                     ('1px 3px 12px rgba(0,0,0,0.4)')
                                                                                                     : ('none')))
                                                                             :
@@ -238,11 +243,11 @@ class Message extends React.Component {
                                                 borderBottomRightRadius:10,
                                                 borderTopRightRadius:username !== chat.username ? 10: 0,
                                                 background: !this.state.hidden ? (username === chat.username ? 
-                                                                                                        chat.type!='map' ? 
+                                                                                                        chat.type!=='map' ? 
                                                                                                                             ('linear-gradient(to right bottom, rgba(38, 48, 78, 2), rgba(57, 74, 132,6 ))' )
                                                                                                                         : ('none')
                                                                                                     : 
-                                                                                                        chat.type!='map' ? 
+                                                                                                        chat.type!=='map' ? 
                                                                                                                             ('rgba(255, 255, 255, 0.8)' )
                                                                                                                             : ('none'))
                                                                                 :('none'),
@@ -252,11 +257,11 @@ class Message extends React.Component {
 
 
                                                 boxShadow: !this.state.hidden ? (username === chat.username ? 
-                                                                                    (chat.type!='map' ? 
+                                                                                    (chat.type!=='map' ? 
                                                                                                         ('1px 3px 12px rgba(0,0,0,0.4)')
                                                                                                     : ('none'))
                                                                                 : 
-                                                                                    (chat.type!='map' ? 
+                                                                                    (chat.type!=='map' ? 
                                                                                                     ('1px 3px 12px rgba(0,0,0,0.4)')
                                                                                                     : ('none')))
                                                                             :
@@ -269,11 +274,11 @@ class Message extends React.Component {
                                                 borderBottomRightRadius:10,
                                                 borderTopRightRadius:username !== chat.username ? 10: 0,
                                                 background: !this.state.hidden ? (username === chat.username ? 
-                                                                                                        chat.type!='map' ? 
+                                                                                                        chat.type!=='map' ? 
                                                                                                                             ('linear-gradient(to right bottom, rgba(38, 48, 78, 2), rgba(57, 74, 132,6 ))' )
                                                                                                                         : ('none')
                                                                                                     : 
-                                                                                                        chat.type!='map' ? 
+                                                                                                        chat.type!=='map' ? 
                                                                                                                             ('rgba(255, 255, 255, 0.8)' )
                                                                                                                             : ('none'))
                                                                                 :('none'),
@@ -283,11 +288,11 @@ class Message extends React.Component {
 
 
                                                 boxShadow: !this.state.hidden ? (username === chat.username ? 
-                                                                                    (chat.type!='map' ? 
+                                                                                    (chat.type!=='map' ? 
                                                                                                         ('1px 3px 12px rgba(0,0,0,0.4)')
                                                                                                     : ('none'))
                                                                                 : 
-                                                                                    (chat.type!='map' ? 
+                                                                                    (chat.type!=='map' ? 
                                                                                                     ('1px 3px 12px rgba(0,0,0,0.4)')
                                                                                                     : ('none')))
                                                                             :
@@ -360,11 +365,11 @@ class Message extends React.Component {
                                                 borderBottomRightRadius:'1.3em',
                                                 borderTopRightRadius:username !== chat.username ? '1.3em': 0,
                                                 background: !this.state.hidden ? (username === chat.username ? 
-                                                                                                        chat.type!='image' ? 
+                                                                                                        chat.type!=='image' ? 
                                                                                                                             ('linear-gradient(to right bottom, rgba(38, 48, 78, 2), rgba(57, 74, 132,6 ))' )
                                                                                                                         : ('none')
                                                                                                     : 
-                                                                                                        chat.type!='image' ? 
+                                                                                                        chat.type!=='image' ? 
                                                                                                                             ('rgba(255, 255, 255, 0.8)' )
                                                                                                                             : ('none'))
                                                                                 :('none'),
@@ -374,11 +379,11 @@ class Message extends React.Component {
 
 
                                                 boxShadow: !this.state.hidden ? (username === chat.username ? 
-                                                                                    (chat.type!='image' ? 
+                                                                                    (chat.type!=='image' ? 
                                                                                                         ('1px 3px 12px rgba(0,0,0,0.2)')
                                                                                                     : ('none'))
                                                                                 : 
-                                                                                    (chat.type!='image' ? 
+                                                                                    (chat.type!=='image' ? 
                                                                                                     ('1px 3px 12px rgba(0,0,0,0.2)')
                                                                                                     : ('none')))
                                                                             :
@@ -399,7 +404,7 @@ class Message extends React.Component {
                                         <div>
                                         
                                             <div>
-                                                <p style={{color:username !== chat.username ? '#4a4a4a':'#ffffff',justifyContent:'flex-start',marginTop:'3px',marginBottom:'3px'}}> { chat.type!=='image' &&  chat.content} </p>
+                                                <p onClick={()=>this.playMusic()} style={{color:username !== chat.username ? '#4a4a4a':'#ffffff',justifyContent:'flex-start',marginTop:'3px',marginBottom:'3px'}}> { chat.type!=='image' &&  chat.content} </p>
                                                 {/* <p style={{color:username !== chat.username ? '#4a4a4a':'#ffffff',justifyContent:'flex-start',position: 'relative',padding: '5px 13px',fontSize: '14px',fontFamily: 'Nunito Sans',borderTopLeftRadius: '10px',borderBottomLeftRadius: '10px',borderBottomrightRadius: '10px',listStyle: 'none',clear: 'both',margin: '10px 0',maxWidth: '200px',textAlign:'left', boxShadow: '1px 3px 12px rgba(0,0,0,0.9)'}}> { chat.type!=='image' &&  chat.content} </p> */}
                                             </div>
                                         </div>

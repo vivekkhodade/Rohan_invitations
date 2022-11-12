@@ -16,7 +16,7 @@ class App extends Component {
       // preloader:true,
       loading:true
     }
-    this.playPromise=new Audio(require('./audio/Winter.mp3'));
+    // this.playPromise=new Audio(require('./audio/Winter.mp3'));
   }
   myFunction() {
     let text = "Press a button!\nEither OK or Cancel.";
@@ -29,15 +29,18 @@ class App extends Component {
     console.log("🚀 ~ file: App.js ~ line 27 ~ App ~ myFunction ~ text", text)
   }
   componentDidMount(){
-    this.playPromise=new Audio(require('./audio/Winter.mp3'));
-    // this.playPromise.pause();
+    // this.playPromise=new Audio(require('./audio/Winter.mp3'));
+    // this.playPromise.muted();
+    // this.playPromise.play();
     // setTimeout(()=>{
-      this.playPromise.play();
+    //   this.playPromise.pause();
     // },1000)
       this.timer= setTimeout(()=>{
         this.setState({
           loading:false
-        },()=>this.myFunction());
+        },
+        // ()=>this.myFunction()
+        );
       },5000)
   }
   render() {
