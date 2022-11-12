@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cf734e0c3b2d27db789e",
+    "revision": "8c5bbe2f5bd4d88f6821",
     "url": "/Rohan_invitations/static/css/main.0eab1350.chunk.css"
   },
   {
-    "revision": "cf734e0c3b2d27db789e",
-    "url": "/Rohan_invitations/static/js/main.cf734e0c.chunk.js"
+    "revision": "8c5bbe2f5bd4d88f6821",
+    "url": "/Rohan_invitations/static/js/main.8c5bbe2f.chunk.js"
   },
   {
     "revision": "8d8f313b890fb1fdccfb",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/Rohan_invitations/static/media/kesariya.92aea05e.mp3"
   },
   {
-    "revision": "a6f3f4d2d054b22788477365f56fbae9",
+    "revision": "8207ee8343a8611a3b7d7c7449a946fa",
     "url": "/Rohan_invitations/index.html"
   }
 ];
