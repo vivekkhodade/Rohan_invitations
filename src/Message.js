@@ -49,8 +49,8 @@ class Message extends React.Component {
         this.props.scrollToBot();
     }
     playMusic = ()=>{
-        alert("helloS")
-        this.props.playBackgroundMusic();
+        // alert("helloS")
+        // this.props.playBackgroundMusic();
     }
     render(){
         console.log(this.state.hidden);
