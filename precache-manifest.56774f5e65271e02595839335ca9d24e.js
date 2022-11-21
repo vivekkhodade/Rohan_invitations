@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8c5bbe2f5bd4d88f6821",
+    "revision": "de8a815bcda9c73c7f5c",
     "url": "/Rohan_invitations/static/css/main.0eab1350.chunk.css"
   },
   {
-    "revision": "8c5bbe2f5bd4d88f6821",
-    "url": "/Rohan_invitations/static/js/main.8c5bbe2f.chunk.js"
+    "revision": "de8a815bcda9c73c7f5c",
+    "url": "/Rohan_invitations/static/js/main.de8a815b.chunk.js"
   },
   {
     "revision": "8d8f313b890fb1fdccfb",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/Rohan_invitations/static/media/background2.ec959cf2.jpg"
   },
   {
-    "revision": "0e211de80c17803da4dd94970c85e733",
-    "url": "/Rohan_invitations/static/media/first.0e211de8.jpeg"
+    "revision": "e08b0f824946e8e6f9305e9ad5c4c038",
+    "url": "/Rohan_invitations/static/media/first.e08b0f82.jpg"
   },
   {
     "revision": "9e050e136093bf73676534ea3f3a8b15",
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/Rohan_invitations/static/media/logo.cdee0b03.jpg"
   },
   {
-    "revision": "441e095c7df435dfa8e8bf0ba2b5871b",
-    "url": "/Rohan_invitations/static/media/third.441e095c.jpeg"
+    "revision": "2725ee23af3c8073ab3c3c6e21e39198",
+    "url": "/Rohan_invitations/static/media/second.2725ee23.jpg"
   },
   {
-    "revision": "95999124a7f0634e0793f1539520cc24",
-    "url": "/Rohan_invitations/static/media/hotel.95999124.jpeg"
+    "revision": "090db8682aac3fdf4aabd804cea22ef8",
+    "url": "/Rohan_invitations/static/media/hotel.090db868.jpg"
   },
   {
     "revision": "18af806bc1de3249ab370f8b81eb9d02",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/Rohan_invitations/static/media/kesariya.92aea05e.mp3"
   },
   {
-    "revision": "8207ee8343a8611a3b7d7c7449a946fa",
+    "revision": "2e17e6dca34ae1d6790e23203d80fdb0",
     "url": "/Rohan_invitations/index.html"
   }
 ];
