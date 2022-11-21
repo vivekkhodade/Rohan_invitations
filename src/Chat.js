@@ -103,14 +103,21 @@ class Chats extends Component {
                 this.scrollToBot();
                 clearTimeout(this.timer)
             }
-            // else if(this.state.itemsRendered===25 && !this.state.showButton){
+            else if(this.state.itemsRendered===26 && !this.state.showButton){
+                this.setState({
+                    showButton:true
+                })
+                this.scrollToBot();
+                clearTimeout(this.timer)
+            }
+            // else if(this.state.itemsRendered===28 && !this.state.showButton){
             //     this.setState({
             //         showButton:true
             //     })
             //     this.scrollToBot();
             //     clearTimeout(this.timer)
             // }
-            else if(this.state.itemsRendered===28 && !this.state.showButton){
+            else if(this.state.itemsRendered===30 && !this.state.showButton){
                 this.setState({
                     showButton:true
                 })
@@ -277,12 +284,12 @@ class Chats extends Component {
                     >
                             <div>
                             <div>
-                                    <img src={require('./images/first.jpeg')}
+                                    <img src={require('./images/first.jpg')}
                                     style={{width:100,height:100,borderRadius:50,border: '1.5px solid rgba(57, 74, 132,6 )',marginTop:' 10px'}}
                                     onClick={()=>{
                                                                 this.setState({
                                                                     lightboxIsOpen:true,
-                                                                    image:{src:require('./images/first.jpeg')}
+                                                                    image:{src:require('./images/first.jpg')}
                                                     })
                                                     }}
                                 />
@@ -339,17 +346,17 @@ class Chats extends Component {
                             {   
                             this.state.itemsRendered===24 && this.state.showButton && this.button1()
                             }
-                            {/* {   
-                            this.state.itemsRendered===25 && this.state.showButton && this.button1()
-                            } */}
                             {   
-                            this.state.itemsRendered===28 && this.state.showButton && this.button1()
+                            this.state.itemsRendered===26 && this.state.showButton && this.button1()
                             }
-                            {/* {
-                            this.state.itemsRendered===5 &&  this.state.showButton && this.button2()
+                            {/* {   
+                            this.state.itemsRendered===28 && this.state.showButton && this.button1()
+                            } */}
+                            {
+                            this.state.itemsRendered===30 &&  this.state.showButton && this.button1()
                             }
                             
-                            {
+                            {/* {
                             this.state.itemsRendered===9 &&  this.state.showButton && this.button3()
                             } */}
                          </div>

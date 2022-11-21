@@ -40,7 +40,7 @@ class Splash extends Component {
                                         transitionLeaveTimeout={1000}
                 >
                     <h2 style={{fontFamily:'Lora',fontWeight:'300', textShadow: '.5px .5px gray',color:'rgba(57, 74, 132,6 )'}}>Rohan Weds Prashansa</h2>
-                    <h3 style={{fontFamily:'Cookie',fontWeight:'400',textShadow: '.5px .5px gray',color:'rgba(57, 74, 132,6 )'}}>#terenaalPRhogaya</h3>
+                    <h3 style={{fontFamily:'Cookie',fontWeight:'400',textShadow: '.5px .5px gray',color:'rgba(57, 74, 132,6 )'}}>#TereNaalPRhogaya</h3>
             </ReactCSSTransitionGroup>
                </div>
             </div>
