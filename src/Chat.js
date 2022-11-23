@@ -284,12 +284,12 @@ class Chats extends Component {
                     >
                             <div>
                             <div>
-                                    <img src={require('./images/first.jpg')}
+                                    <img src={require('./images/dp.jpeg')}
                                     style={{width:100,height:100,borderRadius:50,border: '1.5px solid rgba(57, 74, 132,6 )',marginTop:' 10px'}}
                                     onClick={()=>{
                                                                 this.setState({
                                                                     lightboxIsOpen:true,
-                                                                    image:{src:require('./images/first.jpg')}
+                                                                    image:{src:require('./images/dp.jpeg')}
                                                     })
                                                     }}
                                 />

@@ -41,7 +41,7 @@ class App extends Component {
         },
         // ()=>this.myFunction()
         );
-      },5000)
+      },7000)
   }
   render() {
     return (

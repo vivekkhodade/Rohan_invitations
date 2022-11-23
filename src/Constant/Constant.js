@@ -49,7 +49,7 @@ export const messageList =[
     {
         id:6,
         username: "bot",
-        content: <p>And you’re invited for their  <b>DREAME WEDDING!</b></p>,
+        content: <p>And you’re invited for their  <b>DREAM WEDDING!</b></p>,
         buttonText: <p>And you’re invited for the <b>BIG FAT INDIAN WEDDING!</b></p>,
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
@@ -75,7 +75,7 @@ export const messageList =[
         {
         id:9,
         username: "bot",
-        content: "It's a destination wedding, held at Raajsa Resort, kumbhalgarh, Rajasthan.",
+        content: "It's a destination wedding, held at Raajsa Resort, Kumbhalgarh, Rajasthan.",
         buttonText: 'Awesome! Where are the events?',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
@@ -111,8 +111,8 @@ export const messageList =[
     {
         id:12,
         username: "bot",
-        content: 'On 18th December, we have Baraat Swagat followed by Welcome Dinner from 5:00 PM onwards.',
-        buttonText: 'On 18th December, we have Baraat Swagat followed by Welcome Dinner from 5:00 PM onwards.',
+        content: 'On 18th December, we have Baraat Swagat followed by a Musical Evening from 3:00 PM onwards...',
+        buttonText: 'On 18th December, we have Baraat Swagat followed by a Musical Evening from 5:00 PM onwards.',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
         display:false,
@@ -140,7 +140,7 @@ export const messageList =[
         username: "bot",
         content: 
         <p>
-        Groom's Side Mahera is at <strong>10:15 AM</strong>,<br/> 
+        Groom's Side Mahera is at 10:15 AM<br/> 
         </p>,
         buttonText: 'We have Mahera in the afternoon.',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
@@ -177,8 +177,8 @@ export const messageList =[
     {
         id:19,
         username: "bot",
-        content: 'On 20th December, we have Carnival in the morning at 10:15 AM…',
-        buttonText: 'On 20th December, we have Carnival in the morning at 10:15 AM…',
+        content: 'On 20th December, we have Carnival in the morning at 10:15 AM.',
+        buttonText: 'On 20th December, we have Carnival in the morning at 10:15 AM.',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
         display:false,
@@ -213,8 +213,8 @@ export const messageList =[
     {
         id:23,
         username: "bot",
-        content: 'Followed by Varmala & Phera at 05:00 PM ❤️❤️',
-        buttonText: 'Followed by Varmala & Phera at 05:00 PM (Heart Emoji)',
+        content: 'Followed by Varmala & Phera at 5:00 PM ❤️❤️',
+        buttonText: 'Followed by Varmala & Phera at 5:00 PM (Heart Emoji)',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
         display:false,
@@ -240,8 +240,8 @@ export const messageList =[
     {
         id:26,
         username: "bot",
-        content: <p>On 26th December, 2022 we gave a Wedding Reception at J. W. Marriott, Sahar from 7:00 PM Onwards</p>,
-        buttonText: <p>On 26th December, 2022 we gave a Wedding Reception at J. W. Marriott, Sahar from 7:00 PM Onwards</p>,
+        content: <p>On 26th December, 2022 we have a Wedding Reception at J. W. Marriott, Sahar, Near International Airport (T2), Mumbai from 7:00 PM onwards...</p>,
+        buttonText: <p>On 26th December, 2022 we have a Wedding Reception at J. W. Marriott, Sahar, Near International Airport (T2), Mumbai from 7:00 PM onwards...</p>,
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
         display:false,
@@ -279,7 +279,7 @@ export const messageList =[
         username: "bot",
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'image',
-        image:require('../images/second.jpeg'),
+        image:require('../images/first.jpg'),
         display:false,
     },
     {
@@ -296,7 +296,7 @@ export const messageList =[
         username: "bot",
         content:<p>
             <p>Here's an downloadable invite which has all the Event Details with Wardrobe Planner.</p> 
-            <a style={{display: "table-cell"}} href="https://drive.google.com/file/d/1927VrdBeb-SJSFya0xgN5-fr4Ufa_ygq/view?usp=share_link" target="_blank" 
+            <a style={{display: "table-cell"}} href="https://drive.google.com/file/d/1zpT5JkLIqtCJu7j9RW1NlGuXRzHXFge2/view" target="_blank" 
                 download={true}>(PDF Link)</a>
             </p>,
         buttonText: 'Oh and RSVP with your name at the link below please?',
@@ -333,4 +333,23 @@ export const messageList =[
         image:require('../images/selfies.gif'),
         display:false,
     },   
+    // Couple Photo
+    {
+        id:36,
+        username: "bot",
+        img: "http://i.imgur.com/Tj5DGiO.jpg",
+        type:'image',
+        image:require('../images/logo.jpg'),
+        display:false,
+    },
+    {
+        id:34,
+        username: "bot",
+        // And also don’t forget to use #terenaalPRhogaya while posting selfies on social media
+        content: <p>Best Regards,</p>,
+        buttonText: 'Thank you! So excited to see you there!',
+        img: "http://i.imgur.com/Tj5DGiO.jpg",
+        type:'text',
+        display:false,
+    },
 ];
