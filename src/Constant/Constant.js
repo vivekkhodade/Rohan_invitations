@@ -111,7 +111,7 @@ export const messageList =[
     {
         id:12,
         username: "bot",
-        content: 'On 18th December, we have Baraat Swagat followed by a Musical Evening from 3:00 PM onwards...',
+        content: 'On 18th December, we have Baraat Swagat followed by a Musical Evening from 5:00 PM onwards...',
         buttonText: 'On 18th December, we have Baraat Swagat followed by a Musical Evening from 5:00 PM onwards.',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
@@ -153,7 +153,7 @@ export const messageList =[
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         // image:'https://scontent.fbom19-1.fna.fbcdn.net/v/t31.0-8/26756734_10155893614176142_5426006532846277824_o.jpg?_nc_cat=108&_nc_ht=scontent.fbom19-1.fna&oh=3ae7dfd59a8061f4daa18ae485dc3e96&oe=5D26F719',
         type:'text',
-        content:'Followed by Sangeet in the evening at 6:15 PM',
+        content:'Sangeet Ceremony is in the evening at 6:15 PM',
         display:false,
     },  
     // Dancing Gif
@@ -195,7 +195,7 @@ export const messageList =[
     {
         id:21,
         username: "bot",
-        content: 'Baraat Procession is in the afternoon at 3:15 am🕺 💃',
+        content: 'Baraat Procession is in the afternoon at 3:15 PM🕺 💃',
         buttonText: 'Nikasi in the afteroon at 3:15 PM 🕺 💃',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
@@ -339,14 +339,18 @@ export const messageList =[
         username: "bot",
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'image',
-        image:require('../images/logo.jpg'),
+        image:require('../images/flogo.png'),
         display:false,
     },
     {
         id:34,
         username: "bot",
         // And also don’t forget to use #terenaalPRhogaya while posting selfies on social media
-        content: <p>Best Regards,</p>,
+        content: <p><p>Best Regards,</p><br/>
+        <br/>
+        <strong>P. H. Jain Family,</strong><br/>
+        <p>Mumbai</p>
+        </p>,
         buttonText: 'Thank you! So excited to see you there!',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
