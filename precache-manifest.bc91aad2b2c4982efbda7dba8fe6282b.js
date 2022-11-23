@@ -1,39 +1,39 @@
 self.__precacheManifest = [
   {
-    "revision": "de8a815bcda9c73c7f5c",
+    "revision": "bf289d5e5e50b754b590",
     "url": "/Rohan_invitations/static/css/main.0eab1350.chunk.css"
   },
   {
-    "revision": "de8a815bcda9c73c7f5c",
-    "url": "/Rohan_invitations/static/js/main.de8a815b.chunk.js"
+    "revision": "bf289d5e5e50b754b590",
+    "url": "/Rohan_invitations/static/js/main.bf289d5e.chunk.js"
   },
   {
     "revision": "8d8f313b890fb1fdccfb",
     "url": "/Rohan_invitations/static/js/runtime~main.8d8f313b.js"
   },
   {
-    "revision": "3e86079e7389007dfd7d",
+    "revision": "29a2eafddf21edc973c7",
     "url": "/Rohan_invitations/static/css/2.e1c9e0cd.chunk.css"
   },
   {
-    "revision": "3e86079e7389007dfd7d",
-    "url": "/Rohan_invitations/static/js/2.3e86079e.chunk.js"
+    "revision": "29a2eafddf21edc973c7",
+    "url": "/Rohan_invitations/static/js/2.29a2eafd.chunk.js"
   },
   {
     "revision": "ec959cf2e3c84958206aaf72608ebdb4",
     "url": "/Rohan_invitations/static/media/background2.ec959cf2.jpg"
   },
   {
-    "revision": "e08b0f824946e8e6f9305e9ad5c4c038",
-    "url": "/Rohan_invitations/static/media/first.e08b0f82.jpg"
+    "revision": "cdee0b035e5f33636e9dc12ac0c427e6",
+    "url": "/Rohan_invitations/static/media/logo.cdee0b03.jpg"
+  },
+  {
+    "revision": "def3be1db4c2711d6860109ffff07f75",
+    "url": "/Rohan_invitations/static/media/dp.def3be1d.jpeg"
   },
   {
     "revision": "9e050e136093bf73676534ea3f3a8b15",
     "url": "/Rohan_invitations/static/media/ganapati.9e050e13.jpeg"
-  },
-  {
-    "revision": "cdee0b035e5f33636e9dc12ac0c427e6",
-    "url": "/Rohan_invitations/static/media/logo.cdee0b03.jpg"
   },
   {
     "revision": "2725ee23af3c8073ab3c3c6e21e39198",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/Rohan_invitations/static/media/awesome.d9eee02b.gif"
   },
   {
-    "revision": "7b84626804ebe3a7d86bfb7afa18a234",
-    "url": "/Rohan_invitations/static/media/second.7b846268.jpeg"
+    "revision": "e08b0f824946e8e6f9305e9ad5c4c038",
+    "url": "/Rohan_invitations/static/media/first.e08b0f82.jpg"
   },
   {
     "revision": "7409d7691ddca34f75b155583093d90e",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/Rohan_invitations/static/media/kesariya.92aea05e.mp3"
   },
   {
-    "revision": "2e17e6dca34ae1d6790e23203d80fdb0",
+    "revision": "0cbaf1676b9f30d6651489cfce4b7cc3",
     "url": "/Rohan_invitations/index.html"
   }
 ];
