@@ -75,7 +75,7 @@ export const messageList =[
         {
         id:9,
         username: "bot",
-        content: "It's a destination wedding, held at Raajsa Resort, Kumbhalgarh, Rajasthan.",
+        content: "It's a destination wedding, at Raajsa Resort, Kumbhalgarh, Rajasthan.",
         buttonText: 'Awesome! Where are the events?',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
@@ -111,8 +111,8 @@ export const messageList =[
     {
         id:12,
         username: "bot",
-        content: 'On 18th December, we have Baraat Swagat followed by a Musical Evening from 5:00 PM onwards...',
-        buttonText: 'On 18th December, we have Baraat Swagat followed by a Musical Evening from 5:00 PM onwards.',
+        content: 'On 18th December, we gather for Baraat Swagat at 5:00 PM, followed by Musical Evening.',
+        buttonText: 'On 18th December, we gather for Baraat Swagat at 5:00 PM, followed by Musical Evening.',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
         display:false,
@@ -279,7 +279,7 @@ export const messageList =[
         username: "bot",
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'image',
-        image:require('../images/first.jpg'),
+        image:require('../images/last.jpeg'),
         display:false,
     },
     {
@@ -307,7 +307,7 @@ export const messageList =[
     {
         id:33,
         username: "bot",
-        content: <p>Kindly give your confirmation and upload your ID card in the link below.<br/> <br/>
+        content: <p>To ensure your smooth check-in at Hotel, kindly upload your Aadhar Card in the link below.<br/> <br/>
                  <p> <a style={{display: "table-cell"}} href="https://forms.gle/JLtddQUKEMQeRJLj6" target="_blank">Click here.</a></p></p>            
         ,
         buttonText: 'Oh and RSVP with your name at the link below.?',
