@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "aae922806b5db3faee8c",
+    "revision": "92034ec032e3d72f7b6f",
     "url": "/Rohan_invitations/static/css/main.0eab1350.chunk.css"
   },
   {
-    "revision": "aae922806b5db3faee8c",
-    "url": "/Rohan_invitations/static/js/main.aae92280.chunk.js"
+    "revision": "92034ec032e3d72f7b6f",
+    "url": "/Rohan_invitations/static/js/main.92034ec0.chunk.js"
   },
   {
     "revision": "8d8f313b890fb1fdccfb",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/Rohan_invitations/static/media/background2.ec959cf2.jpg"
   },
   {
-    "revision": "def3be1db4c2711d6860109ffff07f75",
-    "url": "/Rohan_invitations/static/media/dp.def3be1d.jpeg"
+    "revision": "dda1d79f3aef9457f875ae113934d455",
+    "url": "/Rohan_invitations/static/media/dp.dda1d79f.jpeg"
   },
   {
     "revision": "9e050e136093bf73676534ea3f3a8b15",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/Rohan_invitations/static/media/kesariya.92aea05e.mp3"
   },
   {
-    "revision": "b3d0ee8fb8d31f1c1d00599f6ddf29fb",
+    "revision": "5eda37e240f20a2156ba48703b53433b",
     "url": "/Rohan_invitations/index.html"
   }
 ];

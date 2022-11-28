@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Rohan_invitations/precache-manifest.3da8fbf7036595efbd736bc6328d7aa9.js"
+  "/Rohan_invitations/precache-manifest.09e74e60f69e89a6f6889cc6c2642c37.js"
 );
 
 workbox.clientsClaim();
