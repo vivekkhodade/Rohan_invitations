@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/Rohan_invitations/static/media/kesariya.92aea05e.mp3"
   },
   {
-    "revision": "5eda37e240f20a2156ba48703b53433b",
+    "revision": "3c5a75e542a31a5403ea1f2a89b710a1",
     "url": "/Rohan_invitations/index.html"
   }
 ];
